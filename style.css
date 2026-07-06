@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--slate-300);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit', 'sans-serif';
+}
+
+.card {
+  width: 375px;
+  background-color: var(--white);
+  margin: auto 0.5rem;
+  padding: 1.15rem;
+  border-radius: 2rem;
+  box-shadow: 10px 20px 25px 0px hsla(0, 0%, 0%, 0.05);
+}
+
+.qr-code-imaage {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.text-title {
+  margin-bottom: 1rem;
+  font-size: 1.65rem;
+  color: var(--slate-900);
+}
+
+.text-description {
+  font-size: 1.15rem;
+  color: var(--slate-500);
+}
